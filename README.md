@@ -1,16 +1,16 @@
-# reactjs-basics
+# reactjs-router
 
 **Explore ReactJS** 
 
-1. First react components and intro to JSX.
-2. JSX - Inline styling 
-3. JSX - JS functions in JSX
+1. Router
+2. Links 
+3. Passing and fetching Params
 
 
 **Steps to follow**
 
 :one: clone git repo with 
-**npm clone https://github.com/SachinKasar/reactjs-basics.git**
+**git clone https://github.com/SachinKasar/reactjs-router-01**
 
 :two: install npm packages with command
 **npm install**
