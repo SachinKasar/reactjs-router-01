@@ -10,9 +10,21 @@ export class FourWheel extends React.Component {
          return ( 
             <div  className="alert alert-warning" >
                 <h3>Four Wheeler Page !!! </h3>
-                <p> Four Wheeler Name : { this.props.params.name }</p>
+             <ul>
+						<li>
+							<b>Name :</b>  { this.props.params.name }
+						</li>
+						<li>
+							<b>By :</b>  Maruti Suzuki
+						</li>
+					</ul>
+                 
                 <br/><button className="btn btn-primary"  onClick={this.gotoTwoWheelPage}>Go to Two Wheel</button>
             </div>
         );
     }
 }
+
+
+ 
+					
