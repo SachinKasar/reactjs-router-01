@@ -8,10 +8,10 @@ export class FourWheel extends React.Component {
     
     render() {
          return ( 
-            <div>
+            <div  className="alert alert-warning" >
                 <h3>Four Wheeler Page !!! </h3>
                 <p> Four Wheeler Name : { this.props.params.name }</p>
-                <button onClick={this.gotoTwoWheelPage}>Go to Two Wheel</button>
+                <br/><button className="btn btn-primary"  onClick={this.gotoTwoWheelPage}>Go to Two Wheel</button>
             </div>
         );
     }
